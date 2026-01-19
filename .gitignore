@@ -1,0 +1,13 @@
+# Binaires et objets
+main
+src/*.o
+
+# Frama-C
+.frama-c/
+*.jessie/
+*.wp/
+*.session/
+
+# OS
+.DS_Store
+Thumbs.db

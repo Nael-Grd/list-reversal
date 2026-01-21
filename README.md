@@ -1,5 +1,4 @@
 # Verified List Inversion - Tortoise & Hare
-![C](https://img.shields.io/badge/Language-C-blue.svg)
 ![ACSL](https://img.shields.io/badge/Specification-ACSL-green)
 ![Frama-C](https://img.shields.io/badge/Verified%20with-Frama--C-orange)
 ![Prover](https://img.shields.io/badge/Prover-Alt--Ergo-orange)

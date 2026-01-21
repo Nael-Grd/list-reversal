@@ -1,7 +1,7 @@
 # Verified List Inversion - Tortoise & Hare
 ![C](https://img.shields.io/badge/Language-C-blue.svg)
-![ACSL](https://img.shields.io/badge/Specification-ACSL-blueviolet)
-![Frama-C](https://img.shields.io/badge/Verified%20with-Frama--C-blue)
+![ACSL](https://img.shields.io/badge/Specification-ACSL-green)
+![Frama-C](https://img.shields.io/badge/Verified%20with-Frama--C-orange)
 ![Prover](https://img.shields.io/badge/Prover-Alt--Ergo-orange)
 
 ## 🇫🇷 Version Française (english bellow)
@@ -11,19 +11,22 @@ Ce projet implémente et vérifie formellement un algorithme d'inversion de vale
 ###  Prérequis
 * **Frama-C** : [Site officiel (frama-c.com)](https://frama-c.com/html/get-frama-c.html)
 * **Alt-Ergo** : Prouveur SMT (souvent installé avec Frama-C via opam).
-* **GCC & Make** : Pour la compilation et l'exécution classique.
 
 ###  Utilisation
 
+ Compiler et lancer le programme de test
 ```bash
-# Compiler et lancer le programme de test
 make
 ./main
+```
 
-# Lancer la vérification formelle (Frama-C/WP)
+Lancer la vérification formelle (Frama-C/WP)
+```bash
 make proof
+```
 
-# Nettoyer les fichiers temporaires
+Nettoyer les fichiers temporaires
+```bash
 make clean
 ```
 
@@ -35,11 +38,18 @@ This project implements and formally verifies a linked-list value-reversal algor
 ###  Prerequisites
 * **Frama-C**: [Get Frama-C](https://frama-c.com/html/get-frama-c.html)
 * **Alt-Ergo / Z3**: SMT Solvers for WP.
-* **GCC & Make**: For standard build.
+
 
 ### Commands
+Compile
 ```bash
-make        # Compile 
-make proof  # Launch Frama-C/WP verification
-make clean  # Cleanup
+make        
+```
+Launch Frama-C/WP verification
+```bash
+make proof  
+```
+Cleanup
+```bash
+make clean  
 ```

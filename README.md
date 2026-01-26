@@ -3,7 +3,7 @@
 ![Frama-C](https://img.shields.io/badge/Verified%20with-Frama--C-orange)
 ![Prover](https://img.shields.io/badge/Prover-Alt--Ergo-orange)
 
-## 🇫🇷 Version Française (english bellow)
+## 🇫🇷 Version Française (english below)
 
 Ce projet implémente et vérifie formellement un algorithme d'inversion de valeurs dans une liste chaînée en utilisant l'algorithme de  **Tortoise & Hare** (Tortue et lièvre).
 

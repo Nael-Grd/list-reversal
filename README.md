@@ -40,9 +40,10 @@ This project implements and formally verifies a linked-list value-reversal algor
 
 
 ### Commands
-Compile
+Compile and start the test program
 ```bash
-make        
+make
+./main       
 ```
 Launch Frama-C/WP verification
 ```bash

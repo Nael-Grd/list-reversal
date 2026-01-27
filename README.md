@@ -3,7 +3,7 @@
 ![Frama-C](https://img.shields.io/badge/Verified%20with-Frama--C-orange)
 ![Prover](https://img.shields.io/badge/Prover-Alt--Ergo-orange)
 
-## 🇫🇷 Version Française (english below)
+## *FR* Version Française (English below)
 
 Ce projet implémente et vérifie formellement un algorithme d'inversion de valeurs dans une liste chaînée en utilisant l'algorithme de  **Tortoise & Hare** (Tortue et lièvre).
 
@@ -29,7 +29,7 @@ Nettoyer les fichiers temporaires
 make clean
 ```
 
-## 🇺🇸 English Version
+## *ENG* English Version
 
 ###  Overview
 This project implements and formally verifies a linked-list value-reversal algorithm using the **Tortoise & Hare** technique. The goal is to prove both memory safety and functional correctness.
